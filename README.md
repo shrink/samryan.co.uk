@@ -4,7 +4,7 @@ Personal website remade to use a flat-file json system for project listing.
 
 # install
 
-clone, (`composer install`), done.
+clone repository -> `composer install` -> done
 
 # license
 
