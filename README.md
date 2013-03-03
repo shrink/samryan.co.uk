@@ -1,6 +1,6 @@
 # samryan.co.uk
 
-Personal website remade to use a flat-file json system for project listing.
+Personal website using a flat-file json system for project listing
 
 # install
 
