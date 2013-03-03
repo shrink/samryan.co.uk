@@ -1,0 +1,122 @@
+{
+    "projects":{
+        "minecraftforumnet":{
+            "link":"http://minecraftforum.net",
+            "name":"minecraftforum.net",
+            "background_image":"minecraftforum.net.png",
+            "roles":{
+                "founder":"pink"
+            },
+            "description":"The official Minecraft Forum used by over 11 million people every month. The central destination for every Minecraft player to find modifications, texture packs and servers to improve their Minecraft experience.\n\n20,000,000+ posts, 2,000,000+ members.",
+            "display":true
+        },
+        "minecraftwikinet":{
+            "link":"http://minecraftwiki.net",
+            "name":"minecraftwiki.net",
+            "background_image":"minecraftwiki.net.png",
+            "roles":{
+                "founder":"pink",
+                "retired":"gray"
+            },
+            "description":"Minecraft players first stop for information and help with playing Minecraft on PC and Mac. Over 9 million Minecraft players visit the site every month, making it the most popular Minecraft information site.",
+            "display":true
+        },
+        "mcxphotoscom":{
+            "link":"http://mcxphotos.com",
+            "name":"mcxphotos.com",
+            "background_image":"mcxphotos.com.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"Minecraft on XBOX 360 allows players to share photos of their creations and discoveries directly to Facebook, however they need to make their Facebook public for someone else to view their photos. mcxphotos allows users to automatically import their photos, create galleries and share their photos via any other website.",
+            "display":true
+        },
+        "httpstatuses":{
+            "link":"http://httpstatus.es",
+            "name":"httpstatus.es",
+            "background_image":"httpstatus.es.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"A directory of HTTP status codes with easy to understand descriptions. Visit <strong>httpstatus.es/</strong>{status_code}, for example, 404 would be <a href=\"http://httpstatus.es/404\">httpstatus.es/404</a>.\n\n <a href=\"http://github.com/citricsquid/httpstatus.es\">open source @ github</a>",
+            "display":true
+        },
+        "apparatus":{
+            "name":"apparatus",
+            "background_image":"apparatus.mcf.li.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"Moderator application management system for minecraftforum.net, with over 200 applications per hour and a team of staff members managing applications this system increased our efficiency ten-fold.",
+            "display":true
+        },
+        "rtmmcfli":{
+            "name":"rtm",
+            "background_image":"realtime.mcf.li.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"A real time moderation system for minecraftforum.net to allow better utilisation of our moderation staffs time in preventing spam and other non-desirable posts.\n\nA video demonstrating the system is available <a href=\"http://www.youtube.com/watch?v=R1lhPevaCro\">here</a>.",
+            "display":true
+        },
+        "kagforumcom":{
+            "link":"https://forum.kag2d.com/",
+            "name":"kagforum.com",
+            "background_image":"kagforum.com.png",
+            "roles":{
+                "founder":"pink",
+                "retired":"gray"
+            },
+            "description":"Forum for indie game <a href=\"http://kag2d.com\">King Arthur's Gold</a> created by the game developer responsible for Soldat.",
+            "display":true
+        },
+        "kagwikicom":{
+            "link":"https://wiki.kag2d.com/",
+            "name":"kagwiki.com",
+            "background_image":"kagwiki.com.png",
+            "roles":{
+                "founder":"pink",
+                "retired":"gray"
+            },
+            "description":"Wiki for the indie game King Arthur's Gold.",
+            "display":true
+        },
+        "whitelistmcfli":{
+            "link":"http://whitelist.mcf.li",
+            "name":"whitelist.mcf.li",
+            "background_image":"whitelist.mcf.li.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"Minecraft server whitelist application helper, allows server managers to easily cross reference a player with the most popular ban lists to check if the user has a good reputation.\n\nOver 200,000 players have had their ban statuses checked since launch.",
+            "display":true
+        },
+        "1000mcfli":{
+            "link":"http://1000.mcf.li",
+            "name":"1000.mcf.li",
+            "background_image":"1000.mcf.li.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"Celebration of minecraftforum.net and minecraftwiki.net reaching 1000 days old and reaching 3 billion pageviews. People can leave \"Thank you\" messages for the staff to show their appreciation for the sites.",
+            "display":true
+        },
+        "karmawhoresnet":{
+            "link":"http://karmawhores.net/",
+            "name":"karmawhores.net",
+            "background_image":"karmawhores.net.png",
+            "roles":{
+                "founder":"pink",
+                "retired":"gray"
+            },
+            "description":"An automatically updating directory of the top reddit users with graphs provided of their history karma totals.",
+            "display":true
+        }
+    }
+}

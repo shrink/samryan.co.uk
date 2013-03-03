@@ -1,0 +1,109 @@
+body{
+    color: #555;
+    font-family: 'Lato',sans-serif;
+}
+
+#wrapper{
+    margin: 60px auto auto auto;
+    width: 640px;
+}
+
+.name{
+    float: left;
+    width: 300px;
+}
+
+#social{
+    float: right;
+    padding-top: 18px;
+    text-align: right;
+    width: 300px;
+}
+
+#introduction p{
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#sites{
+    margin-top: 20px;
+}
+
+.site{
+    background-position: top right;
+    background-repeat: no-repeat;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    box-shadow: 1px 1px 0 #CCC,2px 2px 2px #EEE;
+    font-size: 18px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    padding: 10px 210px 10px 10px;
+    width: 390px;
+}
+
+.site .heading .title{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.site .meta{
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.site .body{
+    margin-top: 10px;
+}
+
+.site .body .description p{
+    font-size: 14px;
+    line-height: 20px;
+
+}.citricsquid{
+    color: #D6156C;
+    font-weight: 700;
+}
+
+.curse{
+    color: #C46A18;
+    font-weight: 700;
+}
+
+.roles{
+    float: right;
+    text-align: right;
+    width: auto;
+}
+
+.pink{
+    background-color: #EE5D88;
+}
+
+.gray{
+    background-color: #999;
+}
+
+.blue{
+    background-color: #00B4FF;
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.love{
+    color: #FF0066;
+}
+
+#footer{
+    font-size: 12px;
+    margin: 20px 0 40px 0;
+    width: 610px;
+}
