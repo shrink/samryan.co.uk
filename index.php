@@ -12,4 +12,10 @@ respond('/', function($request, $response) {
     $response->render('html/index.phtml', array("projects" => $projects));
 });
 
+respond('404', function($request, $response) {
+    $response->header("Content-Type", "application/json");
+    $response->code(404);
+    echo json_encode(array("404" => "Page not found", "More oh more" => "go to samryan.co.uk"));
+});
+
 dispatch();
