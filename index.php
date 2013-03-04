@@ -4,7 +4,8 @@ require 'vendor/autoload.php';
 require 'helper.php';
 
 respond('/', function($request, $response) {
-    $projects = json_decode(file_get_contents("projects.json"), true)["projects"];
+    $projects = json_decode(file_get_contents("projects.json"), true);
+    $projects = $projects["projects"]; // php 5.3... cba to risk trying to update my main web server and break everything lolol
     
     if(empty($projects))
         die("validate the project list"); // :|
