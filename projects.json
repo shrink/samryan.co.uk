@@ -32,6 +32,17 @@
             "description":"Minecraft on XBOX 360 allows players to share photos of their creations and discoveries directly to Facebook, however they need to make their Facebook public for someone else to view their photos. mcxphotos allows users to automatically import their photos, create galleries and share their photos via any other website.",
             "display":true
         },
+        "cnamer":{
+            "link":"http://cnamer.com",
+            "name":"cnamer.com",
+            "background_image":"cnamer.com.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"Redirect a domain using only a DNS record, no forms, no accounts, no database, no charge, just cnamer. A variety of options are available, switch protocols, specify HTTP status code, include a custom uri string and more.\n\n<a href=\"https://github.com/citricsquid/cnamer\">open source @ GitHub</a>",
+            "display":true
+        },
         "httpstatuses":{
             "link":"http://httpstatus.es",
             "name":"httpstatus.es",
@@ -40,7 +51,7 @@
                 "founder":"pink",
                 "developer":"blue"
             },
-            "description":"A directory of HTTP status codes with easy to understand descriptions. Visit <strong>httpstatus.es/</strong>{status_code}, for example, 404 would be <a href=\"http://httpstatus.es/404\">httpstatus.es/404</a>.\n\n <a href=\"http://github.com/citricsquid/httpstatus.es\">open source @ github</a>",
+            "description":"A directory of HTTP status codes with easy to understand descriptions. Visit <strong>httpstatus.es/</strong>{status_code}, for example, 404 would be <a href=\"http://httpstatus.es/404\">httpstatus.es/404</a>.\n\n <a href=\"http://github.com/citricsquid/httpstatus.es\">open source @ GitHub</a>",
             "display":true
         },
         "apparatus":{
@@ -71,7 +82,7 @@
                 "founder":"pink",
                 "retired":"gray"
             },
-            "description":"Forum for indie game <a href=\"http://kag2d.com\">King Arthur's Gold</a> created by the game developer responsible for Soldat.",
+            "description":"Forum for indie game <a href=\"http://kag2d.com\">King Arthur's Gold</a>, a \"unique build 'n' kill game. Think the creative aspects of Minecraft, plus the fortress-building mechanic of Dwarf Fortress, plus the strategy of Age of Empires 2, plus the fast-paced class-based craziness of Team Fortress 2...\"\n<a href=\"http://devlog.kag2d.com/post/45590294845/its-official-kags-coming-to-steam\">Soon to be available on Steam.</a>",
             "display":true
         },
         "kagwikicom":{
@@ -82,7 +93,7 @@
                 "founder":"pink",
                 "retired":"gray"
             },
-            "description":"Wiki for the indie game King Arthur's Gold.",
+            "description":"Wiki for King Arthur's Gold.",
             "display":true
         },
         "whitelistmcfli":{
