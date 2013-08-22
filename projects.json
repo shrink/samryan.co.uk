@@ -10,6 +10,17 @@
             "description":"The official Minecraft Forum used by over 11 million people every month. The central destination for every Minecraft player to find modifications, texture packs and servers to improve their Minecraft experience.\n\n20,000,000+ posts, 2,000,000+ members.",
             "display":true
         },
+        "httpstatuses":{
+            "link":"http://httpstatus.es",
+            "name":"httpstatus.es",
+            "background_image":"httpstatus.es.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue"
+            },
+            "description":"A directory of HTTP status codes with easy to understand descriptions. Visit <strong>httpstatus.es/</strong>{status_code}, for example, 404 would be <a href=\"http://httpstatus.es/404\">httpstatus.es/404</a>.\n\n <a href=\"http://github.com/citricsquid/httpstatus.es\">open source @ GitHub</a>",
+            "display":true
+        },
         "minecraftwikinet":{
             "link":"http://minecraftwiki.net",
             "name":"minecraftwiki.net",
@@ -27,7 +38,8 @@
             "background_image":"mcxphotos.com.png",
             "roles":{
                 "founder":"pink",
-                "developer":"blue"
+                "developer":"blue",
+                "retired":"gray"
             },
             "description":"Minecraft on XBOX 360 allows players to share photos of their creations and discoveries directly to Facebook, however they need to make their Facebook public for someone else to view their photos. mcxphotos allows users to automatically import their photos, create galleries and share their photos via any other website.",
             "display":true
@@ -41,17 +53,6 @@
                 "developer":"blue"
             },
             "description":"Redirect a domain using only a DNS record, no forms, no accounts, no database, no charge, just cnamer. A variety of options are available, switch protocols, specify HTTP status code, include a custom uri string and more.\n\n<a href=\"https://github.com/citricsquid/cnamer\">open source @ GitHub</a>",
-            "display":true
-        },
-        "httpstatuses":{
-            "link":"http://httpstatus.es",
-            "name":"httpstatus.es",
-            "background_image":"httpstatus.es.png",
-            "roles":{
-                "founder":"pink",
-                "developer":"blue"
-            },
-            "description":"A directory of HTTP status codes with easy to understand descriptions. Visit <strong>httpstatus.es/</strong>{status_code}, for example, 404 would be <a href=\"http://httpstatus.es/404\">httpstatus.es/404</a>.\n\n <a href=\"http://github.com/citricsquid/httpstatus.es\">open source @ GitHub</a>",
             "display":true
         },
         "apparatus":{
