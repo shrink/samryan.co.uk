@@ -32,18 +32,6 @@
             "description":"Minecraft players first stop for information and help with playing Minecraft on PC and Mac. Over 9 million Minecraft players visit the site every month, making it the most popular Minecraft information site.",
             "display":true
         },
-        "mcxphotoscom":{
-            "link":"http://mcxphotos.com",
-            "name":"mcxphotos.com",
-            "background_image":"mcxphotos.com.png",
-            "roles":{
-                "founder":"pink",
-                "developer":"blue",
-                "retired":"gray"
-            },
-            "description":"Minecraft on XBOX 360 allows players to share photos of their creations and discoveries directly to Facebook, however they need to make their Facebook public for someone else to view their photos. mcxphotos allows users to automatically import their photos, create galleries and share their photos via any other website.",
-            "display":true
-        },
         "cnamer":{
             "link":"http://cnamer.com",
             "name":"cnamer.com",
@@ -53,6 +41,17 @@
                 "developer":"blue"
             },
             "description":"Redirect a domain using only a DNS record, no forms, no accounts, no database, no charge, just cnamer. A variety of options are available, switch protocols, specify HTTP status code, include a custom uri string and more.\n\n<a href=\"https://github.com/citricsquid/cnamer\">open source @ GitHub</a>",
+            "display":true
+        },
+        "mcxphotoscom":{
+            "name":"mcxphotos",
+            "background_image":"mcxphotos.com.png",
+            "roles":{
+                "founder":"pink",
+                "developer":"blue",
+                "defunct":"gray"
+            },
+            "description":"Minecraft on XBOX 360 allows players to share photos of their creations and discoveries directly to Facebook, however they need to make their Facebook public for someone else to view their photos. mcxphotos allows users to automatically import their photos, create galleries and share their photos via any other website.",
             "display":true
         },
         "apparatus":{
@@ -70,7 +69,8 @@
             "background_image":"realtime.mcf.li.png",
             "roles":{
                 "founder":"pink",
-                "developer":"blue"
+                "developer":"blue",
+                "defunct":"gray"
             },
             "description":"A real time moderation system for minecraftforum.net to allow better utilisation of our moderation staffs time in preventing spam and other non-desirable posts.\n\nA video demonstrating the system is available <a href=\"http://www.youtube.com/watch?v=R1lhPevaCro\">here</a>.",
             "display":true
