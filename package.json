@@ -1,0 +1,21 @@
+{
+  "name": "samryan.co.uk",
+  "version": "1.0.0",
+  "description": "Personal website with project listing",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.6.5",
+    "metalsmith": "^2.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citricsquid/samryan.co.uk.git"
+  },
+  "author": "Samuel Ryan <sam@samryan.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citricsquid/samryan.co.uk/issues"
+  },
+  "homepage": "https://github.com/citricsquid/samryan.co.uk"
+}
