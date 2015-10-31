@@ -1,0 +1,87 @@
+$container-width: 612px;
+
+@import "../../bower_components/Skeleton-Sass/scss/skeleton.scss";
+
+.container {
+  margin: 0 0 0 40px;
+}
+
+body {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 0px 40px 0px;
+}
+
+#hero {
+  @extend .u-full-width;
+  background-color: #222;
+  padding: 40px 0;
+
+  h1 {
+    color: #f9f9f9;
+    margin-bottom: 12px;
+  }
+
+  p {
+    color: #999;
+    font-size: 15px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a[href='http://www.curseinc.com'] {
+    color: #f05422;
+  }
+}
+
+#projects {
+  .project {
+    margin-top: 40px;
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+
+      .tags {
+        margin-left: 10px;
+
+        span {
+          background-color: #1eaedb;
+          border-radius: 2px;
+          color: #f9f9f9;
+          font-size: 10px;
+          letter-spacing: 0.75px;
+          margin-right: 4px;
+          padding: 2px 4px;
+          text-transform: uppercase;
+          vertical-align: middle;
+
+          &.founder {
+            background-color: #ee5d88;
+          }
+
+          &.retired {
+            background-color: #bbb;
+          }
+        }
+      }
+    }
+
+    p {
+      font-family: 'Open Sans', serif;
+      font-size: 14px;
+      line-height: 22px;
+
+      &:last-child {
+        margin-bottom: 6px;
+      }
+    }
+
+    a.go {
+      font-size: 14px;
+    }
+  }
+}
+
