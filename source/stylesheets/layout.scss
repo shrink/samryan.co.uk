@@ -2,14 +2,21 @@ $container-width: 612px;
 
 @import "../../bower_components/Skeleton-Sass/scss/skeleton.scss";
 
-.container {
-  margin: 0 0 0 40px;
-}
-
 body {
   color: #333;
   font-family: 'Montserrat', sans-serif;
   margin: 0px 0px 40px 0px;
+}
+
+.container {
+  margin: 0 0 0 40px;
+  max-width: $container-width;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 80%;
+  }
 }
 
 #hero {
