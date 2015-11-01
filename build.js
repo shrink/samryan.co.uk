@@ -23,7 +23,7 @@ var metalsmith = Metalsmith(__dirname);
         }))
     )
 
-    .use(fingerprint({pattern: ['site.css']}))
+    .use(fingerprint({pattern: ['site.css', 'favicon.ico']}))
 
     .use(collections({
         pages: {

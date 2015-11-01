@@ -2,7 +2,8 @@ doctype html
 html(lang="en")
     head
         title #{title} &mdash; samryan.co.uk
-        link(rel='stylesheet', href='/' + fingerprint['site.css'] + '')
+        link(rel='shortcut icon', href='/' + fingerprint['favicon.ico'], type='image/x-icon')
+        link(rel='stylesheet', href='/' + fingerprint['site.css'])
         link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans', type='text/css')
     body
         block contents
