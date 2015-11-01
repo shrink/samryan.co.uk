@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Personal website with project listing",
   "main": "build.js",
+  "scripts": {
+    "start": "node build.js",
+    "test": "node build.js"
+  },
   "dependencies": {
     "bower": "^1.6.5",
     "debug": "^2.2.0",
