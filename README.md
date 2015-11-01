@@ -1,28 +1,16 @@
-# samryan.co.uk
+# Samryan.co.uk
 
-Personal website using a flat-file json system for project listing
+A personal website with project listing built using [Metalsmith](http://metalsmith.io) and
+[Skeleton](http://getskeleton.com/). Deployment is handled via [CircleCI](https://circleci.com/).
 
-# install
+## How to deploy with CircleCI
 
-clone repository -> `composer install` -> done
+The deployment scripts makes assumptions about the server configuration:
 
-# license
+- The websites root directory is /srv/www/samryan.co.uk
+- The vhost points to /srv/www/samryan.co.uk/live
 
-Copyright (C) 2013 Samuel Ryan (citricsquid)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of 
-this software and associated documentation files (the "Software"), to deal in 
-the Software without restriction, including without limitation the rights to use, 
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the 
-Software, and to permit persons to whom the Software is furnished to do so, 
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all 
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+After the project is created in the CircleCI dashboard you will need to add an
+Environment Variable `DEPLOY_TARGET`, example value `circle@samryan.co.uk`. Then
+you will need to create a user on the target server named `circle` and enter the
+private key for that user into the SSH Permissions page on the CircleCI dashboard.

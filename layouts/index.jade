@@ -1,0 +1,23 @@
+extends layout.jade
+
+mixin tags(project)
+    span.tags
+        if project.tags && project.tags.length > 0
+            each tag in project.tags
+                span(class='#{tag}') #{tag}
+
+block contents
+    #hero
+        div.container
+            div.row
+                div.twelve.columns
+                    div !{contents}
+
+    #projects.container
+        div.row
+            div.twelve.columns
+            each project in collections.projects
+                div.project
+                    h1 #{project.title}#[+tags(project)]
+                    div !{project.contents}
+                    a.go(href='#') Visit #[a(href='#{project.link}') #{project.title} &rarr;]

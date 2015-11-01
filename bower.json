@@ -1,0 +1,20 @@
+{
+  "name": "samryan.co.uk",
+  "description": "Personal website",
+  "authors": [
+    "Samuel Ryan <sam@samryan.co.uk>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/citricsquid/samryan.co.uk",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Skeleton-Sass": "skeleton-scss#*"
+  }
+}
