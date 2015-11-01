@@ -14,6 +14,7 @@ I can be found under the alias citricsquid on
 [github](https://github.com/citricsquid),
 [spotify](https://open.spotify.com/user/citricsquid),
 [facebook](https://facebook.com/citricsquid),
+[twitter](https://twitter.com/citricsquid),
 [keybase](https://keybase.io/citricsquid),
 [instagram](https://instagram.com/citricsquid),
 and you can reach me via [sam@samryan.co.uk](mailto:sam@samryan.co.uk).
