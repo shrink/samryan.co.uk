@@ -5,11 +5,24 @@ var collections = require('metalsmith-collections');
 var branch = require('metalsmith-branch');
 var sass = require('metalsmith-sass');
 var concat = require('metalsmith-concat');
+var fingerprint = require('metalsmith-fingerprint');
 
 var metalsmith = Metalsmith(__dirname);
     metalsmith
     .source('source')
     .destination('build')
+
+    .use(branch('stylesheets/*.scss')
+        .use(sass({
+            outputDir: 'styles/'
+        }))
+        .use(concat({
+            files: 'styles/*',
+            output: 'site.css'
+        }))
+    )
+
+    .use(fingerprint({pattern: ['site.css']}))
 
     .use(collections({
         pages: {
@@ -30,16 +43,6 @@ var metalsmith = Metalsmith(__dirname);
             engine: 'jade',
             directory: 'layouts',
             default: 'page.jade'
-        }))
-    )
-
-    .use(branch('stylesheets/*.scss')
-        .use(sass({
-            outputDir: 'styles/'
-        }))
-        .use(concat({
-            files: 'styles/*',
-            output: 'site.css'
         }))
     )
 
