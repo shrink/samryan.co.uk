@@ -3,9 +3,13 @@
 A personal website with project listing built using [Metalsmith](http://metalsmith.io) and
 [Skeleton](http://getskeleton.com/). Deployment is handled via [CircleCI](https://circleci.com/).
 
+Run `npm install`, `bower install` and then `node build` to build the project. Deploy by putting the contents
+of the `build` directory somewhere web accessible.
+
 ## How to deploy with CircleCI
 
-The deployment scripts makes assumptions about the server configuration:
+To deploy to a web server on changes to the repository you can use CircleCI,
+the deployment scripts makes assumptions about the server configuration:
 
 - The websites root directory is /srv/www/samryan.co.uk
 - The vhost points to /srv/www/samryan.co.uk/live
