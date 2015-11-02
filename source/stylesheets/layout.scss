@@ -13,6 +13,10 @@ body {
   max-width: $container-width;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (max-width: 400px) {
   .container {
     width: 80%;
