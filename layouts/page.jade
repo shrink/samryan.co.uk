@@ -1,8 +1,4 @@
 extends layout.jade
 
 block contents
-    #hero
-        div.container
-            div.row
-                div.twelve.columns
-                    div !{contents}
+    #hero: .container: .row: .twelve.columns !{contents}

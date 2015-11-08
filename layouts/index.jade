@@ -7,17 +7,12 @@ mixin tags(project)
                 span(class='#{tag}') #{tag}
 
 block contents
-    #hero
-        div.container
-            div.row
-                div.twelve.columns
-                    div !{contents}
+    #hero: .container: .row: .twelve.columns !{contents}
 
     #projects.container
-        div.row
-            div.twelve.columns
+        .row: .twelve.columns
             each project in collections.projects
-                div.project
+                .project
                     h1 #{project.title}#[+tags(project)]
                     div !{project.contents}
                     a.go(href='#') Visit #[a(href='#{project.link}') #{project.title} &rarr;]
