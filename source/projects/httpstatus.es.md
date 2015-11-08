@@ -1,6 +1,6 @@
 ---
-title: httpstatus.es
-link: http://httpstatus.es
+title: httpstatuses.com
+link: https://httpstatuses.com
 tags:
     - developer
     - founder
