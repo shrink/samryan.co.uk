@@ -2,6 +2,20 @@ $container-width: 612px;
 
 @import "../bower_components/Skeleton-Sass/scss/skeleton.scss";
 
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+  src: url('montserrat-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('open-sans-regular.woff') format('woff');
+}
+
 body {
   color: #333;
   font-family: 'Montserrat', sans-serif;
