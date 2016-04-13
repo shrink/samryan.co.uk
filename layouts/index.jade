@@ -15,4 +15,4 @@ block contents
                 .project
                     h1 #{project.title}#[+tags(project)]
                     div !{project.contents}
-                    a.go(href='#') Visit #[a(href='#{project.link}') #{project.title} &rarr;]
+                    a(class='go', href='#{project.link}') Visit #{project.title} &rarr;
