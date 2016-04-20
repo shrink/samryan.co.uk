@@ -4,9 +4,9 @@ A personal website with project listing built using
 [Metalsmith](http://metalsmith.io) and [Skeleton](http://getskeleton.com/).
 Deployment is handled via [CircleCI](https://circleci.com/).
 
-Run `npm install`, `bower install` and then `node build` to build the project.
-Deploy by putting the contents of the `build` directory somewhere web
-accessible.
+Run `npm install` and then `node build` to build the project and preview the
+site at [localhost:7926](http://localhost:7926). Deploy by putting the contents
+of the `build` directory somewhere web accessible.
 
 ## How to deploy with CircleCI
 
