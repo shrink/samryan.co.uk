@@ -7,6 +7,9 @@ var sass = require('metalsmith-sass');
 var concat = require('metalsmith-concat');
 var fingerprint = require('metalsmith-fingerprint-ignore');
 var ignore = require('metalsmith-ignore');
+var finalhandler = require('finalhandler')
+var http = require('http')
+var serveStatic = require('serve-static')
 
 var metalsmith = Metalsmith(__dirname);
   metalsmith
@@ -45,6 +48,20 @@ var metalsmith = Metalsmith(__dirname);
   .use(ignore(['projects/*']))
 
   .build(function(err){
-     if (err) throw err;
-     console.log('Build successful!');
+    if (err) throw err;
+    console.log('Build successful!');
+
+    if (process.argv[2] != 'without-preview') startPreviewServer();
   });
+
+function startPreviewServer() {
+  http.createServer(function(req, res){
+    var done = finalhandler(req, res)
+    var serve = serveStatic('build', {'index': ['index.html'], 'extensions': ['html']})
+    serve(req, res, done)
+  }).listen(7926)
+
+  console.log('A local webserver has been launched, visit localhost:7926 in your browser to preview your build.');
+  console.log('Exit this process to kill the webserver :-)');
+  console.log('To build without the local webserver use `node build without-preview`');
+}
