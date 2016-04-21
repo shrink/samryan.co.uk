@@ -32,7 +32,7 @@ Perform the following steps:
 1. Add a directory to your server for your website to live in, eg `/srv/www/samryan.co.uk`
 2. Configure your webserver to use a subdirectory `live` as the webroot, eg `root /srv/www/samryan.co.uk/live`
 3. Add a new deploy user to your server with key based authentication and grant write permissions on the website directory
-4. Visit `Project Settings > SSH Permissions` and add the private key for your hostname
+4. Visit `Project Settings > SSH Permissions` and add the private key for your deploy user at your hostname
 5. Navigate to `Project Settings > Environment Variables` and set the following values:
 
 Name | Example | Description
