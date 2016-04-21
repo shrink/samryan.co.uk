@@ -41,7 +41,7 @@ MY_REPOSITORY | samryan.co.uk | Your GitHub repository name, default: samryan.co
 MY_DIRECTORY | /srv/www/samryan.co.uk | Your website directory
 DEPLOY_TARGET | circle@web.samryan.co.uk | Your deploy user @ your hostname
 
-You're ready to go, any deploy to your repository will now trigger a build and deploy.
+You're ready to go, any commit to the `master` brand of your repository will now trigger a build and deploy by CircleCI.
 
 Any problems? Create an issue and I'll do what I can to help you out.
 
