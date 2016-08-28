@@ -8,7 +8,7 @@ title: Samuel Ryan
 I create, develop and manage websites. Currently working for
 [Curse, Inc][1] where I manage the [Minecraft Forum][2], which I created along
 with the [Minecraft Wiki][3] in 2009. In total, websites that I founded have
-been viewed 9,293,533,122 times and counting.
+been viewed 9,970,299,329 times and counting.
 
 I can be found under the alias citricsquid on
 [github](https://github.com/citricsquid),
