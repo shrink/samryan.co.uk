@@ -2,7 +2,7 @@
 title: httpstatuses.com
 link: https://httpstatuses.com
 tags:
-    - developer
+    - retired
     - founder
 ---
 
